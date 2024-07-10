@@ -44,7 +44,6 @@ contract MembershipSystem {
         members[memberAddress].membershipType = newType;
     }
 
-    // Function to get member details
     function getMemberDetails(address memberAddress) external view returns (Member memory) {
         return members[memberAddress];
     }
